@@ -4,7 +4,10 @@ set smartindent " Indentation intelligente
 set autoindent  " Conserve l'indentation sur une nouvelle ligne
 
 set nocompatible        " Désactive la compatibilité Vi
-inoremap ( ()<left>     " Ferme la parenthèse et place le curseur entre les deux
+
+
+" Ferme la parenthèse et place le curseur entre les deux
+inoremap ( ()<left>
 
 "##### THEME #####
 syntax on	" Coloration syntaxique
